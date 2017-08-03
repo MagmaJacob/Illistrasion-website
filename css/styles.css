@@ -1,0 +1,80 @@
+/*Universal*/
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Asap|Lobster');
+
+.lobster-text{
+  font-family: 'Lobster', cursive;
+}
+
+.asap-text{
+  font-family: 'Asap', sans-serif;
+}
+
+/*navbar*/
+.navbar-inverse{
+  background-color: #FF2A2A;
+  border-bottom: 2px;
+  border-color: #FF3333;
+}
+.navbar{
+  border-radius: 0px;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: #FFFDFD;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  background-color: rgba(255,255,255,0.5);
+
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+  color: #FF990F;
+}
+/*.logo{
+  color: #FF990F;
+}*/
+.navbar-inverse .navbar-brand{
+  color: #FF990F;
+  text-shadow: 2px 2px 2px #FF0000;
+}
+/*jumbotron*/
+.dropdown-width{
+  width: 300px
+}
+
+.hero-img{
+  background-image: url(../img/lorem-ipsum-filler-text.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.dropdown-postion{
+  margin-top: 250px
+}
+.hero-img p{
+  color: #B0B0B0;
+}
+
+.hero-img h1{
+  color: #B0B0B0;
+}
+/*universal*/
+.sm-bottom-margin{
+  margin-bottom: 20px;
+}
+.appear{
+  visibility: visible;
+}
+.dissappear{
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  body{
+    background-color: #FFB53B;
+  }
+  .thumbnail{
+    border: 1px solid #FF9F00;
+    background-color: #FF9F00;
+  }
+}
