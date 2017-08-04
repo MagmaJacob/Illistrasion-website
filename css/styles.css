@@ -68,7 +68,17 @@
 .dissappear{
   display: none;
 }
-
+.border{
+  border: 2px solid #000;
+}
+.padding{
+  padding: 5px;
+}
+.icons{
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+}
 @media only screen and (max-width: 768px) {
   body{
     background-color: #FFB53B;
@@ -76,5 +86,8 @@
   .thumbnail{
     border: 1px solid #FF9F00;
     background-color: #FF9F00;
+  }
+  .border{
+    border: 2px solid #FF9F00;
   }
 }
